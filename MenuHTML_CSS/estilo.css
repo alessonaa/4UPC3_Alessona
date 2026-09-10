@@ -1,0 +1,31 @@
+/* -- A L E S S I T A -- */
+/* Estilos para el cuerpo de la página */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #62949b; /*fondo oscuro */
+    font-style:oblique;
+}
+/* Estilos para el menú */
+.menu{
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding-top: 50px;
+}
+/* Estilos para los enlaces del menú */
+.menu a{
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #fff; /* Color del texto */
+    font-size: 24px; /* Tamaño de fuente */
+    margin: 15px 0; /* Espaciado entre enlaces */
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+/* */
+.menu a:hover{
+    color: #2c748a; /* Color del texto al pasar el mouse */
+    background-color: #fff; /* Fondo al pasar el mouse */
+    transform: scale(1.1);
+}
